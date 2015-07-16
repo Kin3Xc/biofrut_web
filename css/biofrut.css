@@ -1,0 +1,44 @@
+body{
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background:  url(../public/img/fondo.jpg);
+	height: 460px;
+	/*width: 100%;*/
+}
+h1, h2,h3{
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+.navbar{
+	margin-bottom: 0 !important;
+	background-color: orange !important;
+	border: none;
+}
+a{
+	color: #FFF !important;
+}
+
+.logo img{
+	width: 60px;
+}
+.content-header{
+	text-align: center;
+}
+.content-header h1{
+	font-size: 3em;
+	padding-top: 10%;
+	padding-bottom: 20px;
+}
+.title{
+	color: gray;
+	text-align: center;
+	margin-top: 20px;
+}
+hr{
+	margin: 0;
+	padding: 0;
+}
