@@ -5,7 +5,7 @@ body{
 }
 header{
 	background:  url(../public/img/fondo.jpg);
-	height: 460px;
+	height: 520px;
 	/*width: 100%;*/
 }
 h1, h2,h3{
@@ -13,10 +13,37 @@ h1, h2,h3{
 	padding: 0;
 	color: #FFF;
 }
+h4{
+	color: #f45611;
+}
+.menu-btn span{
+	color: #FFF !important;
+}
+.scrol-menu{
+	text-align: center;
+	margin: 10px;
+	color: #f45611;
+	font-size: 1.2em;
+}
+.seccion-producto{
+	color: gray;
+	font-weight: bold;
+	margin: 16px;
+}
+.productos{
+	text-align: center;
+}
+.img-producto{
+	width: 50%;
+}
 .navbar{
 	margin-bottom: 0 !important;
 	background-color: orange !important;
+	/*background-color: #f45611 !important;*/
+	/*background-color: transparent !important;*/
+	font-size: 1.2em;
 	border: none;
+	/*opacity: 0.8 !important;*/
 }
 a{
 	color: #FFF !important;
@@ -30,15 +57,53 @@ a{
 }
 .content-header h1{
 	font-size: 3em;
-	padding-top: 10%;
+	padding-top: 16%;
 	padding-bottom: 20px;
 }
 .title{
 	color: gray;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 hr{
 	margin: 0;
 	padding: 0;
+	margin-top: 16px;
+}
+.item-service{
+	text-align: center;
+	margin-top: 60px;
+}
+.item{
+	font-size: 60px;
+	font-weight: bold;
+	color: green;
+}
+.clientes{
+	margin-top: 40px;
+}
+.contacto{
+	margin-top: 40px;	
+}
+.contacto ul li{
+	list-style: none;
+	padding: 2px;
+}
+.contacto i{
+	padding-right: 10px;
+}
+.social{
+	margin-top: 40px;
+}
+.social-icon i{
+	padding: 10px;
+}
+.social-icon h5{
+	text-align: center;	
+}
+.derechos{
+	text-align: center;
+}
+.oglit{
+	text-align: right;
 }
