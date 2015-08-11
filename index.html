@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Biofrut</title>
-<meta name="description" content="">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <meta name="viewport" content="width=device-width">
+<meta name="description" content="Producimos, Comercializamos y Exportamos 
+las Mejores Frutas y Jugos Frescos y Pasteurizados">
 <!-- Styles -->
 <link rel="stylesheet" href="lib/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/biofrut.css">
@@ -20,14 +22,14 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 		    <div class="navbar-header">
-		    	<button type="button menu-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		    	<button type="button" class="navbar-toggle collapsed menu-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Menú</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		     	</button>
 
-		     	 <a class="navbar-brand logo" href="#"><img src="public/img/oglit_logo.png" alt=""></a>
+		     	 <a class="navbar-brand logo" href="#"><img src="public/img/biofrut.png" alt=""></a>
 
 		    </div>
 
@@ -35,7 +37,7 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#">Home</a></li>
-		        <li><a href="#servicios">Servicios</a></li>
+		        <li><a href="#empresa">Empresa</a></li>
 		        <li><a href="#productos">Productos</a></li>
 		        <li><a href="#clientes">Clientes</a></li>
 		        <li><a href="#contacto">Contacto</a></li>
@@ -48,8 +50,10 @@
 	<!-- header -->
 	
 		<div class="content-header">
-			<h1>Jugos frescos y pasterizados</h1>
-			<a href="#productos" class="btn btn-info btn-lg">Nuestros productos</a>
+			<div class="front">
+				<h1>Producimos, Comercializamos y Exportamos <br> las Mejores Frutas y Jugos <span class="paste">Frescos y Pasteurizados</span></h1>
+				<a href="#productos" class="btn btn-info btn-lg">Nuestros productos</a>
+			</div>
 		</div>
 	</header>
 	<!-- fin header -->
@@ -58,33 +62,25 @@
 	<!-- HTML INCLUDES -->
 	<div class="container" ui-view>
 		<!-- Section Servicios -->
-		<div class="row" id="servicios">
+		<div class="row" id="empresa">
 			<h5 class="scrol-menu"><span class="glyphicon glyphicon-menu-down"></span></h5>
-			<h2 class="title">Nustros servicios</h2>
+			<h2 class="title">Nuestra Empresa</h2>
 			<hr>
 			<div class="col-md-4 item-service">
-				<span class="glyphicon glyphicon-tasks item"></span>
-				<h4>Somos el proveedor que estbas buscando</h4>
-				<p>We are a joint venture
-					of  two Colombian companies
-					that know how to work with
-					fresh and pasteurized frui</p>
+				<span class="fa fa-truck fa-5x item"></span>
+				<h4>Somos el proveedor que estabas buscando</h4>
+				<p>Distribuimos en toda Colombia nuestros productos. También tenemos experiencia exportando a todo el mundo.</p>
 			</div>
 			<div class="col-md-4 item-service">
-				<span class="glyphicon glyphicon-tasks item"></span>
-				<h4>Somos el proveedor que estbas buscando</h4>
-				<p>We are a joint venture
-					of  two Colombian companies
-					that know how to work with
-					fresh and pasteurized frui</p>
+				<span class="fa fa-briefcase fa-5x item"></span>
+				<h4>Expertos produciendo, comercializando y exportando</h4>
+				<p>Sabemos como trabajar con frutas y jugos frescos o pasteurizados.</p>
 			</div>
 			<div class="col-md-4 item-service">
-				<span class="glyphicon glyphicon-tasks item"></span>
-				<h4>Somos el proveedor que estbas buscando</h4>
-				<p>We are a joint venture
-					of  two Colombian companies
-					that know how to work with
-					fresh and pasteurized frui</p>
+				<span class="fa fa-shopping-cart fa-5x item"></span>
+
+				<h4>Buscamos alianzas que nos permitan crecer</h4>
+				<p>Interesado en ganar dinero con la ayuda de biofrut company? Cuéntanos que ideas tienes en mente.</p>
 			</div>
 		</div>
 		<!-- Fin section servicios -->
@@ -97,42 +93,45 @@
 			
 			<p  class="seccion-producto">Jugos Naturales Frescos</p>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-">
+				<div class="panel panel-default productos">
+					<div class="panel-body">
+						<h4>Jugo de naranja</h4>
+						<img class="img-producto" src="public/img/naranja.png" alt="">
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="panel panel-default productos">
-					<div class="panel-body">
-						<h4>Jugo de naranja</h4>
-						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
@@ -141,42 +140,46 @@
 		<div class="row">	
 			<p  class="seccion-producto">Jugos Naturales Pasterizados</p>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-">
 				<div class="panel panel-default productos">
 					<div class="panel-body">
 						<h4>Jugo de naranja</h4>
 						<img class="img-producto" src="public/img/naranja.png" alt="">
-						<p>Presentacion: 200, 300, 400, 500 ml</p>
+						<p><span class="info-producto">Disponible :</span> Pateurizado y Fresco</p>
+						<p><span class="info-producto">Presentación :</span> 200, 300, 400, 500 ml</p>
 					</div>
 				</div>
 			</div>
@@ -184,19 +187,36 @@
 		<!-- fin section productos -->
 
 		<!-- section clientes -->
-		<div class="row" id="clientes">
+		<div class="" id="clientes">
 			<h5 class="scrol-menu"><span class="glyphicon glyphicon-menu-down"></span></h5>
 			<h2 class="title">Nuestros clientes</h2>
 			<hr>
-			<div class="clientes">
-				<div class="col-md-4 col-xs-6">
-					<a target="_blank" href="#"><img class="cliente" src="public/img/oglit_logo.png" alt=""></a>
+			<div class="row clientes">
+				<div class="col-md-3 col-xs-3">
+					<a target="_blank" href="http://hamburguesasdeloeste.com/"><img class="cliente" src="public/img/hdo.png" alt=""></a>
 				</div>	
-				<div class="col-md-4 col-xs-6">
-					<a target="_blank" href="#"><img class="cliente" src="public/img/oglit_logo.png" alt=""></a>
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/carulla.png" alt=""></a>
+				</div>	
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/exito.png" alt=""></a>
 				</div>
-				<div class="col-md-4 col-xs-6">
-					<a target="_blank" href="#"><img class="cliente" src="public/img/oglit_logo.png" alt=""></a>
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/cajasan.png" alt=""></a>
+				</div>
+			</div>
+			<div class="row clientes">
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/suprema.png" alt=""></a>
+				</div>	
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/euro.png" alt=""></a>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/rgcc.jpg" alt=""></a>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<a><img class="cliente" src="public/img/hpc.png" alt=""></a>
 				</div>
 			</div>
 		</div>
@@ -204,10 +224,32 @@
 
 		<!-- formulario de contacto -->
 		<div class="row" id="contacto">
+			<h5 class="scrol-menu"><span class="glyphicon glyphicon-menu-down"></span></h5>
 			<h2 class="title">Contáctanos</h2>
 			<hr>
+			<div class="row contact">
+				<div class="dir col-md-4">
+					<ul>
+	        			<li><i class="glyphicon glyphicon-map-marker"></i>Carrera 18 # 11-48 Campo Alegre</li>
+	        			
+	        			<!-- <li><i class="glyphicon glyphicon-envelope"></i>Email: info@biofrut.com</li> -->
+	        			<li><i class="glyphicon glyphicon-home"></i>Lebrija, Santander - Colombia</li>
+	        			<li><i class="glyphicon glyphicon-phone-alt"></i>(57) 317-639-3662</li>
+	        		</ul>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="person col-md-4">
+					<ul>
+	    			<P class="nombre">MARGARTIA PEREZ PEDRAZA</P>
+	    			<p class="cargo">Gerente Comercial y de Operaciones</p>
+	    			<p class="company">Biofrut Company SAS</p>
+	    			<p class="mail">direcioncomercial@biofrut.com</p>
+	    			</ul>
+	        	</div>
+			</div>
+			<h2 class="title export">Exportamos a todo el mundo</h2>
 			<div class="contacto">
-				<div class="col-md-4 col-sm-4">
+				<div class="col-md-3 col-sm-3">
 					<form role="form">
 						<div class="form-group">
 	                        <label class="label-control" for="nombre">Nombre</label>
@@ -225,22 +267,18 @@
 	                    </div>
 
 	                    <div class="form-group">
-	                        <input class="btnEnviar btn btn-primary" type="submit" value="Enviar mensaje">
-	                    </div>
+                        	<input class="btnEnviar btn btn-primary" type="submit" value="Enviar mensaje">
+                    	</div>
 					</form>
+					<div class="respuesta"></div>
 				</div>
 
-				<div class="col-md-4 col-sm-4">
-					<ul>
-	        			<li><i class="glyphicon glyphicon-map-marker"></i>Calle 92 # 11 - 32</li>
-	        			<li><i class="glyphicon glyphicon-phone-alt"></i>(57) 3026739</li>
-	        			<li><i class="glyphicon glyphicon-envelope"></i>Email: info@biofrut.com</li>
-	        			<li><i class="glyphicon glyphicon-home"></i>Bucaramanga - Colombia</li>
-	        		</ul>
-				</div>
-				  <div class="col-md-8 col-sm-8">
+				  <div class="col-md-5 col-sm-5">
 	                <h2></h2>
-	          <!--       <iframe src="http://mapsengine.google.com/map/u/0/embed?mid=zlJ5kkczPuYU.kg05CgIM5H88&zoom=5" width="100%" height="300" frameborder="0" style="border:0"></iframe> -->
+	               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31672.597301252397!2d-73.21241469024184!3d7.117346430548028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x3fd76dc2dcbc1537!2sCasco+Urbano+Lebrija!5e0!3m2!1ses!2sco!4v1438276298391" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	            </div>
+	            <div class="col-md-4 col-sm-4">
+	            	<img src="public/img/lebrija.png" width="100%" height="240">
 	            </div>
             </div>
 		</div>
@@ -248,18 +286,18 @@
 		
 		<!-- Social -->
 		<div class="row">
-			<h2 class="title">Social</h2>
+			<h2 class="title">Ofrecemos una vida sana en forma de botella</h2>
 			<hr>
 			<div class="social">
 				<div class="social-icon">
 					<p>Siguenos:</p>
-					<i class="fa fa-facebook-official fa-2x"></i>
-					<i class="fa fa-twitter fa-2x"></i>
-					<i class="fa fa-google-plus fa-2x"></i>
+					<a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+					<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
 				</div>
 			</div>
 				<div class="derechos"><p>Biofrut  2015 - Todos los derechos reservados</p></div>
-				<div class="oglit"><p>Powered by Oglit</p></div>
+				<div class="oglit"><p class="oglit-footer">| by Oglit</p></div>
 		</div>
 		<!-- fin social -->
 
@@ -267,7 +305,10 @@
 
 	<!-- Script -->
 	<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+	<!-- // <script src="lib/js/jquery-1.11.1.min.js"></script> -->
 	<script src="lib/js/bootstrap.min.js"></script>
+	<script src="js/mail.js"></script>
+
 <!-- 	// <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.js"></script>
 	// <script src="lib/js/angular-ui-router.min.js"></script> -->
 
@@ -279,3 +320,4 @@
 
 </body>
 </html>
+

@@ -9,7 +9,6 @@ app.controller('HomeCtrl', ['$scope', function($scope){
 app.controller('ContactoCtrl', ['$scope', function($scope){
 
 	$scope.sendMail = function(){
-		
 	}
 
 }]);
